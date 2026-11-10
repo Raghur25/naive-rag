@@ -1,0 +1,15 @@
+[project]
+name = "naive-rag"
+version = "0.1.0"
+description = "Naive RAG over a PDF: LangChain + Qdrant + an OpenAI-compatible model server"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.7.4",
+    "langchain-qdrant>=1.1.0",
+    "langchain-text-splitters>=1.1.3",
+    "openai>=3.46.0",
+    "pypdf>=7.0.0",
+    "python-dotenv>=1.2.4",
+]
