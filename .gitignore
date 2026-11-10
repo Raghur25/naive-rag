@@ -12,5 +12,8 @@ __pycache__/
 .idea/
 .vscode/
 
+# Source documents (add your own PDF locally; don't publish books/PRDs)
+*.pdf
+
 # rag_queue is its own repository (github.com/Raghur25/rag-queue)
 rag_queue/

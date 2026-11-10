@@ -23,7 +23,7 @@ uv run index.py                      # index the PDF into Qdrant (run once)
 uv run chat.py                       # ask questions
 ```
 
-`index.py` indexes `The Ultimate Python Handbook.pdf` from this folder. Re-running it adds the chunks a second time, so delete the `learning_rag` collection first if you want a clean re-index.
+No PDF is included in this repo. Put your own PDF in this folder and set `pdf_path` in `index.py` (line 11) to its file name before running `index.py`. Re-running it adds the chunks a second time, so delete the `learning_rag` collection first if you want a clean re-index.
 
 ## Gotcha when using a self-hosted, OpenAI-compatible server
 
